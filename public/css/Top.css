@@ -1,0 +1,47 @@
+.navi{
+    text-align:right;
+}
+
+.list{
+  display:inline;
+  width:100%;
+}
+
+.img_1{
+  background:url(/img/6.png);
+  background-size: cover;
+  background-position:center;
+  /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 58%;
+    /* Set up proportionate scaling */
+    width: 58%;
+    height: auto;
+    /* Set up positioning */
+    position: fixed;
+    /* またはabsolute; */
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1024px){
+  .img_1 {
+  left: 50%;
+  margin-left: -512px; }
+}
+
+.img {
+  position: relative;
+}
+
+/*.img_2{
+  background:url(/img/6.png);
+  background-size: cover;
+  background-position:center;
+  display: table-cell;
+ vertical-align: middle;
+ position: relative;
+ width: 100%;
+ padding: 318px 370px;
+ z-index: 5;
+}*/
